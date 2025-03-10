@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(225, 255, 143);
+    width: 1440px;
+    height: 800px;
+    &__title {
+        color: rgb(32, 32, 39);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        padding-top: 196px;
+    }
+    &__description {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        padding-top: 24px;
+    }
+    &__button {
+        box-sizing: border-box;
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        width: 247px;
+        height: 66px;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 48px;
+    }
+}
