@@ -2,6 +2,7 @@
     background-color: rgb(225, 255, 143);
     width: 1440px;
     height: 800px;
+    padding-left: 120px;
     &__title {
         color: rgb(32, 32, 39);
         font-size: 64px;
@@ -15,8 +16,15 @@
         line-height: 32px;
         padding-top: 24px;
     }
+    &__bold-description {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        padding-top: 24px;
+    }
     &__button {
         box-sizing: border-box;
+        color: rgb(255, 255, 255);
         border: 1px solid rgb(32, 32, 39);
         border-radius: 60px;
         background: rgb(32, 32, 39);
