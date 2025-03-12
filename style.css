@@ -51,7 +51,12 @@
   font-weight: 400;
   line-height: 32px;
 }
+.game__cards-placement {
+  display: flex;
+  gap: 32px;
+}
 .game__card {
+  border-radius: 30px;
   background-color: rgb(255, 255, 255);
 }
 .game__number {
@@ -62,4 +67,25 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 39px;
+}
+
+.minigame {
+  background: rgb(32, 32, 39);
+}
+.minigame__title {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.minigame__button {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  width: 247px;
+  height: 66px;
+  font-family: sans-serif "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
