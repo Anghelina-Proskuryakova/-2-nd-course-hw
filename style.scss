@@ -35,3 +35,30 @@
         margin-top: 48px;
     }
 }
+.game {
+    background: rgb(32, 32, 39);
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+    }
+    &__about {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    &__card {
+        background-color: rgb(255, 255, 255);
+    }
+    &__number {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &__name {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+    }
+}

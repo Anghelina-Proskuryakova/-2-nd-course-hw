@@ -34,4 +34,32 @@
   font-size: 24px;
   font-weight: 600;
   margin-top: 48px;
+}
+
+.game {
+  background: rgb(32, 32, 39);
+}
+.game__title {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.game__about {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.game__card {
+  background-color: rgb(255, 255, 255);
+}
+.game__number {
+  font-size: 16px;
+  font-weight: 500;
+}
+.game__name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
 }/*# sourceMappingURL=style.css.map */
