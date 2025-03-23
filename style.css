@@ -88,4 +88,8 @@
   font-family: sans-serif "Montserrat";
   font-size: 24px;
   font-weight: 600;
+}
+.minigame__card {
+  background-color: white;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
