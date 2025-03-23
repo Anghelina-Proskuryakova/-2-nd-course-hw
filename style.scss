@@ -52,10 +52,17 @@
     &__cards-placement {
         display: flex;
         gap: 32px;
+        flex-wrap: wrap;
     }
     &__card {
         border-radius: 30px;
         background-color: rgb(255, 255, 255);
+    }
+    &__img {
+        border-radius: 30px;
+    }
+    &__div {
+        gap: 16px;
     }
     &__number {
         font-size: 16px;
@@ -86,8 +93,24 @@
         font-size: 24px;
         font-weight: 600;
     }
+    &__div {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
     &__card {
         background-color: white;
         display: flex;
+        width: 1200px;
+        border-radius: 50px;
+    }
+    &__description {
+        width: 600px;
+        height: 500px;
+        padding: 48px 48px 48px 48px; 
+    }
+    &__img {
+        width: 600px;
+        border-radius: 50px;
     }
 }

@@ -54,10 +54,17 @@
 .game__cards-placement {
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
 }
 .game__card {
   border-radius: 30px;
   background-color: rgb(255, 255, 255);
+}
+.game__img {
+  border-radius: 30px;
+}
+.game__div {
+  gap: 16px;
 }
 .game__number {
   font-size: 16px;
@@ -89,7 +96,23 @@
   font-size: 24px;
   font-weight: 600;
 }
+.minigame__div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 .minigame__card {
   background-color: white;
   display: flex;
+  width: 1200px;
+  border-radius: 50px;
+}
+.minigame__description {
+  width: 600px;
+  height: 500px;
+  padding: 48px 48px 48px 48px;
+}
+.minigame__img {
+  width: 600px;
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */
