@@ -74,6 +74,12 @@
 .game__number {
   font-size: 16px;
   font-weight: 500;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  width: 107px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
 }
 .game__name {
   font-size: 32px;
