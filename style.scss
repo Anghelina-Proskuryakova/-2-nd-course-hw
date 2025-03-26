@@ -1,6 +1,5 @@
 .header {
     background-color: rgb(225, 255, 143);
-    width: 1440px;
     height: 800px;
     padding-left: 120px;
     &__title {
@@ -35,8 +34,14 @@
         margin-top: 48px;
     }
 }
-.game {
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.body {
     background: rgb(32, 32, 39);
+}
+.game {
     &__title {
         color: rgb(255, 255, 255);
         font-size: 64px;
@@ -75,7 +80,6 @@
     }
 }
 .minigame {
-    background: rgb(32, 32, 39);
     &__title {
         color: rgb(255, 255, 255);
         font-size: 64px;
