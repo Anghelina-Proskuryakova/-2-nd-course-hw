@@ -1,0 +1,126 @@
+.header {
+  background-color: rgb(225, 255, 143);
+  height: 800px;
+  padding-left: 120px;
+}
+.header__title {
+  color: rgb(32, 32, 39);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  padding-top: 196px;
+}
+.header__description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+}
+.header__bold-description {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  padding-top: 24px;
+}
+.header__button {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  width: 247px;
+  height: 66px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 48px;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.body {
+  background: rgb(32, 32, 39);
+}
+
+.game__title {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.game__about {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.game__cards-placement {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.game__card {
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.game__img {
+  border-radius: 30px;
+}
+.game__div {
+  gap: 16px;
+}
+.game__number {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  width: 107px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+}
+.game__name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.minigame__title {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.minigame__button {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  width: 247px;
+  height: 66px;
+  font-family: sans-serif "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+}
+.minigame__div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.minigame__card {
+  background-color: white;
+  display: flex;
+  width: 1200px;
+  border-radius: 50px;
+}
+.minigame__description {
+  width: 600px;
+  height: 500px;
+  padding: 48px 48px 48px 48px;
+}
+.minigame__img {
+  width: 600px;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */

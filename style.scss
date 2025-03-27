@@ -1,0 +1,126 @@
+.header {
+    background-color: rgb(225, 255, 143);
+    height: 800px;
+    padding-left: 120px;
+    &__title {
+        color: rgb(32, 32, 39);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        padding-top: 196px;
+    }
+    &__description {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        padding-top: 24px;
+    }
+    &__bold-description {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        padding-top: 24px;
+    }
+    &__button {
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        width: 247px;
+        height: 66px;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 48px;
+    }
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.body {
+    background: rgb(32, 32, 39);
+}
+.game {
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+    }
+    &__about {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    &__cards-placement {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+    &__card {
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    &__img {
+        border-radius: 30px;
+    }
+    &__div {
+        gap: 16px;
+    }
+    &__number {
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 52.58px;
+        background: rgb(247, 247, 247);
+        width: 107px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+    }
+    &__name {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+    }
+}
+.minigame {
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+    }
+    &__button {
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        width: 247px;
+        height: 66px;
+        font-family: sans-serif "Montserrat";
+        font-size: 24px;
+        font-weight: 600;
+    }
+    &__div {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    &__card {
+        background-color: white;
+        display: flex;
+        width: 1200px;
+        border-radius: 50px;
+    }
+    &__description {
+        width: 600px;
+        height: 500px;
+        padding: 48px 48px 48px 48px; 
+    }
+    &__img {
+        width: 600px;
+        border-radius: 50px;
+    }
+}
